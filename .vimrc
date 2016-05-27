@@ -35,8 +35,16 @@ call plug#begin()
  Plug 'ternjs/tern_for_vim'
  Plug 'scrooloose/nerdtree' 
  Plug 'chriskempson/base16-vim'
+ Plug 'lervag/vimtex'
+ Plug 'tpope/vim-surround'
+ Plug 'tpope/vim-repeat'
+ Plug 'tomtom/tcomment_vim'
+ Plug 'maxbrunsfeld/vim-yankstack'
  call plug#end()
 
+"Surround settings
+"Load proper mapping
+" call yankstack#setup()
 
 " My settings
 set tabstop=4 shiftwidth=4 expandtab
